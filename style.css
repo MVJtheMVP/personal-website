@@ -122,7 +122,7 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   height: 500px;
   width: 500px;
   opacity: 20%;
-  margin-left: auto;
+  margin-left: 10%;
   margin-right: auto;
 }
 
@@ -207,13 +207,13 @@ h1 {
 .left {
   float: left;
   clear: both;
-  text-align: right;
+  text-align: center;
 }
 
 .right {
   float: right;
   clear: both;
-  text-align: left;
+  text-align: center;
 }
 
 .content {
@@ -326,4 +326,9 @@ h3{
   margin: 20px 0;
   height: 1px;
   background-color: #f2f2f2;
+}
+
+.h5{
+  color:#000000;
+  align-items: center;
 }
