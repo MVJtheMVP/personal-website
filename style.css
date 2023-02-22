@@ -320,3 +320,10 @@ h3{
   margin-left: 600px;
 }
 
+.subtle-break {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 20px 0;
+  height: 1px;
+  background-color: #f2f2f2;
+}
