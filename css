@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
   }
+  span {
+    text-align: left;
+
+  }
   
   body {
     font-family: 'Montserrat', sans-serif;
@@ -12,8 +16,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
     background: #2196F3;
+  }
+
+  .sumnew{
+    text-align: left;
+    color: rgb(46, 235, 13);
   }
   
   .logo {
@@ -41,10 +49,17 @@
     text-align: center;
     flex-direction: column;
   }
+  .name{
+    font-size: 200%;
+  }
+
+  .header{
+    padding: 0;
+  }
   
   .header-text h1 {
-    font-size: 50px;
-    color: #fff;
+    font-size: 200%;
+    color: #100e0e;
     margin-bottom: 20px;
   }
   
@@ -128,4 +143,3 @@
     font-size: 18px;
     line-height: 1.5;
   }
-  
